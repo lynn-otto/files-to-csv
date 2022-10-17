@@ -1,1 +1,2 @@
 # files-to-csv
+The goal of this project is to create a program which is able to add the filenames of files of multiple folders into one .csv file. The program should have a graphical user interface and in the best case scenario we have a .exe file in the end which just works on Windows machines.
