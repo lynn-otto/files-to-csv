@@ -2,6 +2,7 @@ import os
 import Argument
 
 class Folder:
+
     def __init__(self, path = os.curdir, filetypes = [], arguments = []):
         self.path = path
         self.filetypes = filetypes
@@ -37,5 +38,6 @@ class Folder:
         for file in os.listdir():
             if self.check_type(file):
                 filenames_and_arguments.append(self.add_arguments(file))
+        self.filenames_and_arguments = filenames_and_arguments
         return filenames_and_arguments
 
